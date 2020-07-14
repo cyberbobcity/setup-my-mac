@@ -29,7 +29,7 @@ To start, I'll do the following steps below and copy the 3 lines and paste them 
 
 7. Download my notes file. Run the script below to check it out and then open Notable and point to it.
 
-        git clone ssh://git@YOnnoUR-SERVER/YOUR-USERNAME/YOUR-NOTES.git ~/notes
+        git clone ssh://git@YOUR-SERVER/YOUR-USERNAME/YOUR-NOTES.git ~/notes
 
 8. Download my journal
 
