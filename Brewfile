@@ -45,6 +45,7 @@ mas "Mimeo Photos", id: 1282504627
 mas "iHosts", id: 1102004240
 mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
+mas "Wireguard", id: 1451685025
 
 # This will go away once I'm done converting
 mas "Bear", id: 1091189122

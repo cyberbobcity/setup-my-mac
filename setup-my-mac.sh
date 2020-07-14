@@ -1,16 +1,11 @@
 #!/bin/bash
 # 
+# 1-setup-my-mac.sh
 # Let's get a fresh mac setup with nearly everything I need!
 #
-# NOTE: Make sure you sign into the Mac App Store before running this or it will error out
 
-# Install XCode Command Line Developer Tools
-# TODO: This wasn't working in the beta, so I had to download the
-# tools from here and install: https://developer.apple.com/download/more/
-if [ ! -d "$(xcode-select -p)" ]; then
-   echo XCode Command Line Tools not found...installing now.;
-   xcode-select --install
-fi
+# Go into the newly downloaded folder
+cd ~/git/me/setup-my-mac
 
 # Setup my work git repo folder
 mkdir -p ~/git/work
@@ -28,9 +23,6 @@ fi
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Copy my .zshrc file to where it needs to be
-cp support/zshrc ~/.zshrc
 
 # Copy my modified theme to where it needs to be
 cp support/bobbyb.zsh-theme ~/.oh-my-zsh/themes/
