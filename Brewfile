@@ -32,6 +32,7 @@ cask "fontbase"
 cask "android-studio"
 cask "keyboard-maestro"
 cask "textexpander"
+cask "notion"
 #cask "default-folder-x" //TODO: Not Ready, using a manually downloaded beta
 
 # Mac App Store Apps

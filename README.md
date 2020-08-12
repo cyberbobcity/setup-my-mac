@@ -4,7 +4,9 @@ This is how I setup a fresh mac install with many of the software, settings I ne
 To start, I'll do the following steps below and copy the 3 lines and paste them into Terminal to start the script.
 
 ## Steps
-1. ONLY DURING BETA -  Download latest beta of Command Line Tools for Xcode and install it
+1. ONLY DURING BETA -  Download latest Xcode 12 install it. https://developer.apple.com/download/more/?=xcode
+
+2. ONLY DURING BETA -  Download latest beta of Command Line Tools for Xcode and install it. https://developer.apple.com/download/more/?=xcode
 
 2. Open and sign into the Mac App Store so that it can download your apps.
 
@@ -12,7 +14,7 @@ To start, I'll do the following steps below and copy the 3 lines and paste them 
 
         mkdir -p ~/git/me
         git clone https://github.com/cyberbobcity/setup-my-mac.git ~/git/me/setup-my-mac
-        cp support/zshrc ~/.zshrc
+        cp ~/git/me/setup-my-mac/support/zshrc ~/.zshrc
 
 4. Restart terminal now that you have the updated .zshrc and run the script below.
 
@@ -33,7 +35,7 @@ To start, I'll do the following steps below and copy the 3 lines and paste them 
 
 8. Download my journal
 
-        git clone ssh://git@YOUR-SERVER/YOUR-USERNAME/YOUR-NOTES.git ~/journal
+        git clone ssh://git@YOUR-SERVER/YOUR-USERNAME/YOUR-JOURNAL.git ~/journal
 
 9. Setup Git folder in sidebar - Drag my git folder to the finder sidebar
 
@@ -48,7 +50,7 @@ To start, I'll do the following steps below and copy the 3 lines and paste them 
 
 11. Setup Notable - Open Notable and point it to my notes folder
 
-12. Login to my 1Password Account - Open the app and login!
+12. Login to my 1Password Account - Open the app and login! When in Safari if it askes to enable 1Password, do so.
 
 13. Install the Creative Cloud apps I use
 

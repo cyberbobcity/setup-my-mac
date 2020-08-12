@@ -7,8 +7,10 @@
 # Go into the newly downloaded folder
 cd ~/git/me/setup-my-mac
 
-# Setup my work git repo folder
+# Setup my work git repo folder, journal folder, and notes folder
 mkdir -p ~/git/work
+mkdir -p ~/journal
+mkdir -p ~/notes
 
 # Check if homebrew is installed and if not install it.
 if ! which brew > /dev/null; then
