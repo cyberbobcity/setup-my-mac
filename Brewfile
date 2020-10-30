@@ -12,19 +12,16 @@ brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 
 # Cask Apps
+cask "obsidian"
 cask "visual-studio-code"
 cask "alfred"
 cask "anylist"
 cask "mattermost"
 cask "resilio-sync"
-cask "ring"
-cask "setapp"
 cask "adobe-creative-cloud"
 cask "tower"
 cask "transmit"
-cask "google-chrome"
 cask "iterm2"
-cask "notable"
 cask "controlplane"
 cask "logitech-options"
 cask "docker"
@@ -33,13 +30,14 @@ cask "android-studio"
 cask "keyboard-maestro"
 cask "textexpander"
 cask "notion"
+cask "karabiner-elements"
+cask "brave-browser"
 #cask "default-folder-x" //TODO: Not Ready, using a manually downloaded beta
 
 # Mac App Store Apps
 mas "1Password 7", id: 1333542190
 mas "Ring", id: 1142753258
 mas "Drafts", id: 1435957248
-mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Slack", id: 803453959
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Mimeo Photos", id: 1282504627
@@ -47,9 +45,5 @@ mas "iHosts", id: 1102004240
 mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
 mas "Wireguard", id: 1451685025
-
-# This will go away once I'm done converting
-mas "Bear", id: 1091189122
-
-#TODO: Update when released. I manually downloaded the XCode 12 Beta from the Apple Developer Site. 
-#mas "Xcode", id: 497799835
+mas "Todoist: To-Do List & Tasks", id: 585829637
+mas "Spark – Email App by Readdle", id: 1176895641

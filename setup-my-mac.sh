@@ -7,9 +7,8 @@
 # Go into the newly downloaded folder
 cd ~/git/me/setup-my-mac
 
-# Setup my work git repo folder, journal folder, and notes folder
+# Setup my work git repo folder and notes folder
 mkdir -p ~/git/work
-mkdir -p ~/journal
 mkdir -p ~/notes
 
 # Check if homebrew is installed and if not install it.
@@ -40,3 +39,7 @@ brew bundle
 
 # Turn on syntax highlighting in vim
 echo syntax on > ~/.vimrc
+
+# Copy over Karabiner Elements config
+mkdir -p ~/.config/karabiner
+cp support/karabiner.json ~/.config/karabiner
