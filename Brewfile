@@ -32,9 +32,10 @@ cask "textexpander"
 cask "notion"
 cask "karabiner-elements"
 cask "brave-browser"
-#cask "default-folder-x" //TODO: Not Ready, using a manually downloaded beta
+cask "default-folder-x"
 
 # Mac App Store Apps
+mas "Xcode", id: 497799835
 mas "1Password 7", id: 1333542190
 mas "Ring", id: 1142753258
 mas "Drafts", id: 1435957248

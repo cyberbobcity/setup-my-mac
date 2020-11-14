@@ -73,8 +73,6 @@ plugins=(git z)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-ZSH_DISABLE_COMPFIX="true"
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
