@@ -7,20 +7,21 @@ This is how I setup a fresh mac install with many of the software, settings I ne
 
 2. Open Terminal and paste in the following. This checks out my project and runs the initial setup script. It will download Xcode Command Line tools after prompting you when you first try to use git.
 
-        mkdir -p ~/git/me
-        git clone https://github.com/cyberbobcity/setup-my-mac.git ~/git/me/setup-my-mac
+        mkdir -p ~/Git/me
+        git clone https://github.com/cyberbobcity/setup-my-mac.git ~/Git/me/setup-my-mac
 
 3. Start the bulk of this install script by running the below command. The script will end prematurely. To fix it run the second command below.
 
-        zsh ~/git/me/setup-my-mac/setup-my-mac.sh
+        zsh ~/Git/me/setup-my-mac/setup-my-mac.sh
 
 	USE THIS BELOW TO FIX ISSUE AND RERUN ABOVE SCRIPT
+        
 	compaudit | xargs chmod g-w,o-w
 
 
 4. After the install finishes, copy the .zshrc file in
 
-	cp ~/git/me/setup-my-mac/support/zshrc ~/.zshrc
+	cp ~/Git/me/setup-my-mac/support/zshrc ~/.zshrc
 
 5. Then I need to setup my SSH keys in the various git services I use (Gitea, Github, and Gitlab). The below script copies my key to the clipboard that I can then paste online.
 
