@@ -11,6 +11,7 @@ brew "telnet"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "go"
+brew "python"
 
 # Cask Apps
 cask "obsidian"
@@ -35,6 +36,10 @@ cask "default-folder-x"
 cask "owncloud"
 cask "microsoft-office"
 cask "autodesk-fusion360"
+cask "vlc"
+cask "sonos"
+cask "beyond-compare"
+cask "prusaslicer"
 
 # Mac App Store Apps
 mas "Xcode", id: 497799835
@@ -51,3 +56,5 @@ mas "Spark – Email App by Readdle", id: 1176895641
 mas "AutoMounter", id: 1160435653
 mas "HP Smart for Desktop", id: 1474276998
 mas "MindNode - Mind Map", id: 1289197285
+mas "FileZilla Pro - FTP and Cloud", id: 1298486723
+mas "Deliveries: a package tracker", id: 290986013

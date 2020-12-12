@@ -23,7 +23,9 @@ if [ ! -f ~/.ssh/id_rsa ]; then
 fi
 
 # Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+if [ ! -d ~/.oh-my-zsh ]; then
+   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
 
 # Copy my modified theme to where it needs to be
 cp support/bobbyb.zsh-theme ~/.oh-my-zsh/themes/
